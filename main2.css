@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .wolf{
+    height: 100px;
+    width: 200px;
+    top: 600px;
+    left: 1300px;
+    transition: 200ms;
+    transform: scale(-1, 1);
+    z-index: 1;
+  }
+  .wolf2{
+    height: 100px;
+    width:200px;
+    transform: scale(1,-1);
+    opacity:0;
+    transition: 100ms;
+    z-index: 1;
+  }
+  .block0{
+    height: 100px;
+    left:1400px;
+    width:100px;
+    top: 700px;
+  }
+  .block1{
+    height: 100px;
+    left:1300px;
+    width: 100px;
+    top: 700px;
+  }
+  .block2{
+    height:100px;
+    width: 100px;
+    top:  600px;
+    left: 1200px;
+  }
+  .block3{
+    height: 100px;
+    width: 100px;
+    top:  600px;
+    left: 1100px;
+  }
+  .block4{
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 900px;
+  }
+  .block5{
+    height: 100px;
+    width: 100px;
+    top: 600px;
+    left: 900px;
+  }
+  .block6{
+    height: 100px;
+    width: 100px;
+    top: 600px;
+    left: 600px;
+  }
+  .block7{
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 600px;
+  }
+  .block8{
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    left: 1300px;
+  }
+  .block10{
+    height: 100px;
+    width: 100px;
+    top: 500px;
+    left: 600px;
+  }
+  .block11{
+    height: 100px;
+    width: 100px;
+    top: 500px;
+    left: 900px;
+    transition: 500ms;
+  }
+  .block12{
+    height: 100px;
+    width: 100px;
+    top: 500px;
+    left: 1000px;
+    
+  }
+  .block13{
+    height: 100px;
+    width: 100px;
+    top: 600px;
+    left: 1000px;
+   
+  }
+  .block14{
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 1000px;
+    
+  }
+  .block15{
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 1100px;
+    
+  }
+  .block16{
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 1200px;
+  }
+  .block17{
+    height: 100px;
+    width: 100px;
+    top: 500px;
+    left: 0px;
+  }
+  .cloud1{
+    width:100px;
+    top:300px;
+    left:800px;
+  }
+  .cloud2{
+    width:100px;
+    top:200px;
+    left:1000px;
+  }
+  .cloud3{
+    width:100px;
+    top: 200px;
+    left:1100px;
+  }
+  .cloud4{
+    width:100px;
+    top:300px;
+    left:400px;
+  }
+  .cloud5{
+    width:100px;
+    top:300px;
+    left:500px;
+  }
+.cat{
+  width: 100px;
+  top: 438px;
+  left: 1000px;
+  transition: 200ms;
+  transform: scale(1, 1);
+  z-index: 1;
+}
+  .back{
+    height: 800px;
+    width: 1450px;
+    z-index: -2;
+  }
+  .door{
+    left: 1247px;
+    top: -38px;
+    height: 200px;
+    width: 200px;
+    opacity:1;
+  }
+  .door2{
+    left: -53px;
+    top: 362px;
+    height: 200px;
+    width: 200px;
+    opacity:1;
+  }
+  .img1{
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    left: 1300px;
+    transition: 100ms;
+    z-index: -1;
+  }
+  .img2{
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    transition: 100ms;
+    z-index: -1;
+  }
+  .img3{
+    height: 100px;
+    width: 100px;
+    left: 200px;
+    top: 700px;
+    transition: 100ms;
+    z-index: -1;
+  }
+  .img4{
+    height: 100px;
+    width: 100px;
+    left: 300px;
+    top: 700px;
+    transition: 100ms;
+    z-index: -1;
+  }
+  .img5{
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    top: 700px;
+    transition: 100ms;
+    z-index: -1;
+  }
+  .img6{
+    height: 100px;
+    width: 100px;
+    left: 400px;
+    top: 700px;
+    transition: 100ms;
+    z-index: -1;
+  }
+  .img7{
+    height: 100px;
+    width: 100px;
+    left: 500px;
+    top: 700px;
+    transition: 100ms;
+    z-index: -1;
+  }
+  .img8{
+    height: 85px;
+    width: 90px;
+    top: 198px;
+    left: 1105px;
+    z-index: -1;
+    transition: 100ms;
+  }
+  .img9{
+    height: 100px;
+    width: 100px;
+    left: 0px;
+    top: 500px;
+    transition: 100ms;
+    z-index: -1;
+  }
+  .img10{
+    height: 85px;
+    width: 90px;
+    top: 298px;
+    left: 405px;
+    z-index: -1;
+    transition: 100ms;
+  }
+  .arrow{
+    height: 100px;
+    width: 150px;
+    top: 450px;
+    left: 225px;
+
+  }
+  .over{
+  height: 650px;
+  z-index: 3;
+  left: 265px;
+  opacity: 0;
+  }
+  .div1{
+    height: 800px;
+    width: 1500px;
+    background-color: black;
+    z-index: 2;
+    opacity: 0;
+  }
+  .win{
+    height: 800px;
+    width:1500px;
+    opacity: 0;
+    z-index: 5;
+  }
+  .p1{
+    font-size: 32px;
+    width: 500px;
+    left: 20px;
+    text-align: left;
+    color: #FF5733;
+  }
